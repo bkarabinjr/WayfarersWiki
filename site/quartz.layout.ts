@@ -6,21 +6,23 @@ const explorer = Component.Explorer({
   title: "Wiki",
   folderDefaultState: "collapsed",
   folderClickBehavior: "collapse",
+  // Keep this function self-contained with no named inner functions: Quartz serializes it into the page.
   sortFn: (a, b) => {
     const order = [
       "Overview", "Roadmap", "Character-Creation", "Lineages", "Classes", "Subclasses",
       "Rules", "Magic", "Equipment", "Feats", "Running-the-Game", "Bestiary",
     ]
     if (a.isFolder && b.isFolder) {
-      const ia = order.indexOf(a.slugSegment), ib = order.indexOf(b.slugSegment)
+      const ia = order.indexOf(a.slugSegment)
+      const ib = order.indexOf(b.slugSegment)
       return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib) || a.displayName.localeCompare(b.displayName)
     }
     if (a.isFolder !== b.isFolder) return a.isFolder ? -1 : 1
-    const lead = (n) => {
-      const parts = ((n.data && n.data.slug) || "").split("/")
-      return parts.length > 1 && parts[parts.length - 1] === parts[parts.length - 2] ? 0 : 1
-    }
-    return lead(a) - lead(b) || a.displayName.localeCompare(b.displayName, undefined, { numeric: true })
+    const pa = ((a.data && a.data.slug) || "").split("/")
+    const pb = ((b.data && b.data.slug) || "").split("/")
+    const la = pa.length > 1 && pa[pa.length - 1] === pa[pa.length - 2] ? 0 : 1
+    const lb = pb.length > 1 && pb[pb.length - 1] === pb[pb.length - 2] ? 0 : 1
+    return la - lb || a.displayName.localeCompare(b.displayName, undefined, { numeric: true })
   },
 })
 
