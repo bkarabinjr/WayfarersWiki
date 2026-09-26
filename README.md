@@ -13,8 +13,8 @@ The easiest way to contribute is to let Claude do the editing. It reads `CLAUDE.
 ### Claude Code (terminal or desktop)
 
 ```bash
-git clone https://github.com/<owner>/wayfarers-wiki.git
-cd wayfarers-wiki
+git clone https://github.com/bkarabinjr/WayfarersWiki.git
+cd WayfarersWiki
 claude
 ```
 
@@ -46,7 +46,7 @@ Page format and conventions are in `CLAUDE.md` and `content/Overview/How to Cont
 
 ## Setup (repository owner, once)
 
-1. Create an empty GitHub repository (for example `wayfarers-wiki`) and push this folder to it.
+1. Push this folder to https://github.com/bkarabinjr/WayfarersWiki (done once).
 2. In the repository's **Settings → Pages**, set **Source** to **GitHub Actions**. The next push to `main` publishes the site.
 3. In **Settings → Collaborators**, invite each contributor.
 4. Optional: in **Settings → Branches**, protect `main` so changes go through pull requests.
