@@ -1,0 +1,17 @@
+@use "./base.scss";
+
+// Wayfarers wiki tweaks
+.callout[data-callout="idea"] {
+  --color: #2a6b5e;
+  --border: #2a6b5e44;
+  --bg: #2a6b5e12;
+  --callout-icon: var(--callout-icon-tip);
+}
+:root[saved-theme="dark"] .callout[data-callout="idea"] {
+  --color: #72c2ac;
+  --border: #72c2ac44;
+  --bg: #72c2ac12;
+}
+// Status tags stand out a little
+a.tag-link[href$="status/needs-decision"] { color: var(--tertiary); font-weight: 600; }
+article table { font-variant-numeric: tabular-nums; }
