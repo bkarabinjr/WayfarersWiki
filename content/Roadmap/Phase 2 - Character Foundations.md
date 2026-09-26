@@ -21,6 +21,7 @@ tags:
 - [ ] Define proficiency levels (Proficient, Expert, Master?) and what each gives → [[General Feats]]
 - [ ] Write skill points: how many, how they're spent → [[Skills and Learnings]]
 - [ ] Write a language list → [[Languages]]
+- [ ] Decide on the new skills (Endurance, Ride, Engineering, Forgery), Perception/Deduction, and tool proficiencies → [[Skills and Learnings]]
 - [ ] Decide on Stress, Skill Training and Class Points, or cut them → [[Skills and Learnings]]
 
 ## Background and origin

@@ -11,6 +11,12 @@ Chapter 6.
 - Wealth and money
 - [[Weapons and Techniques]]
 - [[Armor]]
-- Items (see the potion rule in [[Appendix Notes]])
+- Items
+  - [[Potions and Elixirs]]
+- Trade resources
+  - Crafting (see [[Craft Learnings]])
+- Farming (see [[Downtime]])
+  - Field cultivation
+  - Beast breeding
 
 A more interesting armor and weapon system is on the [[Roadmap]].

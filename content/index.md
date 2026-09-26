@@ -10,7 +10,7 @@ tags:
 
 > Wayfarers puts characters through physical, mental and moral trials. The goal is for them to grow in meaningful ways, not to break them.
 
-This wiki holds everything from the *Wayfarers Master Document V01* and later design notes, broken into linked pages. It lives in a Git repository, so anyone with access can edit pages directly or ask Claude to do it. See [[How to Contribute]].
+This wiki holds everything from the *Wayfarers Master Document V01* and the *Wayfarers additional info* notes, broken into linked pages. It lives in a Git repository, so anyone with access can edit pages directly or ask Claude to do it. See [[How to Contribute]].
 
 ## Where to start
 

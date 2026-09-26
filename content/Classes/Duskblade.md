@@ -16,6 +16,11 @@ A class that blends martial and arcane prowess: a fighter and **half-caster** wh
 
 ## Subclasses
 
+> [!idea] From the Additional Info notes
+> - **Mystic** Duskblade
+> - **Seer**: arcane archer / spellslinger (Seer is also an [[Arcanist]] subclass name)
+
+
 - Aegis *(?)*
 - Bladesinger *(?)*
 - Spellslinger *(?)*

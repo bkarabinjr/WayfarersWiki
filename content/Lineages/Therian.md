@@ -32,5 +32,8 @@ You can assume a bestial transformation that lasts for 1 minute, until you die, 
 - **Longtooth.** When you shift, and for an AP on later turns while shifted, you can use your elongated fangs to make an unarmed attack. On a hit, you deal sharp damage equal to 1d6 + your Might.
 - **Wildhunt.** While shifted, you have advantage on Wisdom checks, and no creature within 30 feet of you can make an attack roll with advantage against you unless you're incapacitated.
 
+> [!question] Is Nocturnal still an option?
+> The Additional Info notes list only Climber, Glider, Racer and Swimmer. Nocturnal isn't included.
+
 > [!question] Is the shifting option a separate choice?
 > It's unclear whether Beasthide, Swiftstride, Longtooth and Wildhunt are chosen in addition to the lineage ability or instead of it.

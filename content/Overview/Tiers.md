@@ -35,3 +35,12 @@ Class abilities are grouped by tier. In the [[Soldier]] draft, new tiers unlock 
 
 > [!question] How do levels map to tiers?
 > The Soldier page mentions levels 1–20 with tiers unlocking at 6, 11 and 16, and the Berserker's Brutal Critical refers to "your Berserker level". Most other rules scale off tier level only. Confirm whether characters have levels as well as tiers, and write the mapping here.
+
+## Campaign types
+
+From the Additional Info notes (not written yet):
+
+- **Low-level campaign**
+- **Unlocked campaign**
+
+Wayfarers also aims to support rules-light, tactical and narrative play (see [[Core Mechanics]]).

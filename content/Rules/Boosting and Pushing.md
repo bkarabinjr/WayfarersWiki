@@ -17,5 +17,9 @@ The designer was never a fan of spammable spells like *guidance*. Boosting is a 
 
 Some abilities cost a Boost, such as [[Beastcaller]]'s Exceptional Training and Critter Dispersal.
 
+## Surge
+
+From the Additional Info notes: **Surge** is pushing your abilities. It expends your attributes, but gives you a **class point**. You can spend class points on special skills.
+
 > [!question] How does boosting work?
 > The headings "Pushing/Boosting" and "What's the point of boosting?" have no rules yet: how many points you can spend, what a point adds, and how points recover.

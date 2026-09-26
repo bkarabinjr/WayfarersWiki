@@ -14,7 +14,7 @@ tags:
 
 - [ ] Design the creature stat block format
 - [ ] Write the encounter-building rules (quick 2–3 rounds, moderate 4–5, boss 6–8) → [[Creating Encounters]]
-- [ ] Define creature roles, minions, and "conditions to take full damage"
+- [ ] Define the enemy types (minion, grunt, standard, elite, boss) and "conditions to take full damage" → [[Creating Encounters]]
 - [ ] Write the creature templates (Celestial, Vampiric, Undead, etc.) → [[Creature Templates]]
 - [ ] Write a starter bestiary: about 10 creatures for Alpha 1, about 40 for Beta
 
@@ -29,7 +29,9 @@ tags:
 
 - [ ] Write the scene framework for GMs: conflict, interlude and GM scenes → [[Scenes]]
 - [ ] Write the tier check-in procedure (inventory of characters at each tier) → [[Tiers]]
-- [ ] Write downtime activities → [[Downtime]]
+- [ ] Write downtime activities, including farming (field cultivation, beast breeding) → [[Downtime]]
+- [ ] Write clocks for challenges → [[Skill Challenges]]
+- [ ] Write the low-level and unlocked campaign types → [[Tiers]]
 - [ ] Write treasure, rewards, and services and recruits → [[Adventuring]]
 - [ ] Write mounted and aerial combat, theater of the mind, and grid play → [[Combat]]
 - [ ] Decide whether Planes and Travel and War and Advancement are 1.0 or expansion content

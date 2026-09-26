@@ -1,9 +1,9 @@
 ---
 title: "Scion"
 category: Lineages
-status: stub
+status: needs-decision
 tags:
-  - status/stub
+  - status/needs-decision
   - lineage
 ---
 A species descended from **Deva**.
@@ -13,8 +13,12 @@ A species descended from **Deva**.
 | Scion | Theme |
 |---|---|
 | **Asha** | Radiant |
-| **Asura** | Aviolent |
+| **Asura** | Violent *(the Master Document V01 says "Aviolent")* |
 | **Titan** | Protector |
 | **Deep** | Myst |
+| **Eldritch** | *Not decided* |
 
 *Traits not written yet.* See [[Lineages]] for the page template.
+
+> [!question] Deep or Eldritch?
+> The Master Document V01 lists **Deep (Myst)** as the fourth Scion. The Additional Info notes list **Eldritch** instead.

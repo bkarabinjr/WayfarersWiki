@@ -9,9 +9,13 @@ tags:
 ---
 Lineages named in the source with no rules yet. Click one to start its page.
 
-- Synth
-- Ectoa
-- Scute
+- **Synth:** a warforged-style construct lineage (4 sub-options planned)
+- **Ectoa:** Galapa species; amphibian-like (axolotl, salamander, frog). 4 sub-options planned
+- **Scute:** shelled creatures
+- **Avian:** Owl, Crow, Eagle/Hawk, Duck, Harpy, Valkyrie
+- **Anseri:** a duck-type species (may overlap with Avian's Duck)
+- **Krellum**
+- *An "emotional" lineage, a "mischief" lineage, and an original lineage* (placeholders in the Additional Info notes)
 - Centaur
 - Changeling
 - Dryad
@@ -36,4 +40,4 @@ Lineages named in the source with no rules yet. Click one to start its page.
 - Verdan
 
 > [!note] Name check
-> Several of these (Genasi, Gith, Kalashtar, Tabaxi, Yuan-ti, Verdan) are D&D-specific names that may need original names before publication.
+> "Warforged" is used above only as a description. Several of these (Genasi, Gith, Kalashtar, Tabaxi, Yuan-ti, Verdan) are D&D-specific names that may need original names before publication.

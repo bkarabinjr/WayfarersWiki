@@ -23,6 +23,14 @@ Feats are grouped into categories:
 
 The large list of combat and skill feats is on [[Skill Feats]].
 
+> [!idea] Feat roles
+> The Additional Info notes group feats by role:
+> - **Inspiration / Leader:** support
+> - **Sentinel:** defense
+> - **Assault:** offense
+>
+> This could be a second way to sort feats alongside the categories above, or replace some of them.
+
 ## Tiered feats and feat trees
 
 Feats are also **tiered**, with more potent feats saved for later tiers. This does two things: it gives a sense of building and progression, like talent trees, and it allows wilder, potentially game-breaking feats at later levels.

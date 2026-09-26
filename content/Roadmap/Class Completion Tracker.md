@@ -29,7 +29,7 @@ Where each class stands, based on the Master Document V01. Update a row when you
 | [[Bard]] | Gifted | Done | Partial | — | — | — | — | 0 | — |
 | [[Duskblade]] | Gifted | — | — | — | — | — | — | 0 | — |
 | [[Sorcerer]] | Gifted | — | Partial | — | — | — | — | 0 | — |
-| [[Warlock]] | Gifted | — | — | — | Partial | — | — | 0 | — |
+| [[Warlock]] | Gifted | — | Partial | — | Partial | — | — | 0 | — |
 
 **Chassis** means primary abilities, Class Dice, and proficiencies.
 

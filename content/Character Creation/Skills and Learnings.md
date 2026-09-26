@@ -44,6 +44,28 @@ The source has two versions of this list.
 > [!question] Single attribute or attribute pairs?
 > The later version lets each trained skill use either of two attributes and adds Grapple, but drops Taming and Performance (___). Pick one approach.
 
+## More skills and tools (Additional Info notes)
+
+**Skill ideas**
+
+- Endurance (Constitution; probably Might or Resolve here)
+- Ride (attribute not chosen)
+- Engineering / Tinkering (Intelligence)
+- Forgery (attribute not chosen)
+
+> [!question] Perception and Deduction?
+> The Additional Info notes suggest "Perception and Deduction instead of Perception, Investigation and Insight". The current core skills are **Awareness**, **Insight** and **Analysis**. Decide whether to merge them into two skills, and what to call them.
+
+**Tool proficiencies**
+
+- Forgery kit
+- Thieves' tools
+- Chef's tools
+- Disguise kit
+- Healing kit
+- Herbalist kit (the [[Druid]] already starts with a herbalism kit)
+- Poisoner's kit
+
 ## Common vehicles
 
 - Land

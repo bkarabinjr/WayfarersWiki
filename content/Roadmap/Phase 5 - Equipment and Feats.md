@@ -21,7 +21,10 @@ tags:
 - [ ] Write the armor table: light, heavy, bespoke (medium is being removed) → [[Armor]]
 - [ ] Write bespoke weapons and armor rules
 - [ ] Write an adventuring gear list, including first aid and herbalism kits
-- [ ] Write potion rules (swig for a roll, 2 actions for max) and a starter item list → [[Appendix Notes]]
+- [ ] Write potion rules (swig for a roll, 2 actions for max) and a starter item list → [[Potions and Elixirs]]
+- [ ] Confirm healing potion amounts and prices → [[Potions and Elixirs]]
+- [ ] Write trade resources and crafting → [[Equipment]]
+- [ ] Decide on shields and super heavy armor → [[Armor]]
 
 ## Feats
 

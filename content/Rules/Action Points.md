@@ -16,6 +16,11 @@ Turns in Wayfarers run on **Action Points (AP)**.
 
 Throughout play there are many ways to increase your pool of Action Points, starting with tier advancement (see [[Class Template]]).
 
+**Wounded:** when you drop below half health, you lose 1 AP (see [[Exhaustion and Wounds]]).
+
+> [!note] From the Additional Info notes
+> "Smooth out how action points are…" (unfinished). The designer flagged the Action Point rules as needing a smoothing pass.
+
 ## Swift actions
 
 Swift actions can be used either on your turn, or off your turn as a reaction to another action.

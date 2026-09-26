@@ -44,6 +44,21 @@ Because spells have cooldowns, casters can cast multiple spells per turn, and sp
 
 ## Spell lists
 
+From the Additional Info notes, each tradition has a role:
+
+| Tradition | Role |
+|---|---|
+| **Arcane** | Single-target to area spells, no healing |
+| **Primal** | Single- or multi-target damage, area control |
+| **Divine** | Single-target to area healing |
+| **Psionic** | *Not decided* |
+
+The same notes group magic into **Elemental** (fire, frost…), **Mystical** and **Carnal** types. *Carnal* isn't defined yet.
+
+> [!idea] More magic ideas
+> **Spell affinity**, **spell nature**, and "mold and harness the elements".
+
+
 The source mentions **Primal** ([[Druid]], [[Ranger]]) and **Universal** (cantrips from the Adept identity) spell lists. [[Sorcerer]]s and [[Warlock]]s can draw from any list. A metamagic system is referenced for the [[Arcanist]] and [[Sorcerer]].
 
 See also [[Areas of Effect]], [[Spells]].

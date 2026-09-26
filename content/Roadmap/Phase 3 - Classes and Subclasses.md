@@ -17,7 +17,7 @@ tags:
 - [ ] Agree on the class structure: how many picks per tier, what the "New/Upgraded Social, Exploration, Combat Skill" slots mean → [[Class Template]]
 - [ ] Decide how many subclasses each class launches with (4 or 5)
 - [ ] Settle subclass prefixes: Curriculum/Academy, Domain/Prayer, Circle/Grove, Heritage/Soul → [[Subclasses]]
-- [ ] Settle class resources: Soldier (Valor vs superiority dice), Rogue (Schemes vs Panache) → [[Soldier]], [[Rogue]]
+- [ ] Settle class resources: Soldier (Valor vs superiority dice), Rogue (Schemes vs Panache), shared focus points for Psion / Martial Artist / Sorcerer → [[Soldier]], [[Rogue]], [[Sorcerer]]
 - [ ] Decide on multiclassing, or rule it out → [[Multiclassing]]
 - [ ] Define prestige classes and the reward for staying single-class → [[Prestige Classes]]
 - [ ] Use [[Berserker]] as the reference class: finish it first, then match the others to it
