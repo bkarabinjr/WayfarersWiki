@@ -2,4 +2,9 @@ node_modules/
 .quartz/
 public/
 .DS_Store
-.obsidian/workspace*.json
+content/.obsidian/
+.obsidian/
+
+# Generated at build time by scripts/wiki.py (see scripts/build-site.sh)
+content/Open Questions.md
+content/Roadmap/Roadmap Progress.md

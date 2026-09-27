@@ -6,6 +6,8 @@ tags:
   - status/solid
   - meta
 ---
+**New here?** Follow [[Getting Started]] first: it walks through installing everything and making your first change, step by step.
+
 The wiki is a folder of Markdown files in a Git repository. The website is built from those files automatically every time a change lands on `main`. There are three ways to contribute, from easiest to most hands-on.
 
 ## 1. Ask Claude to do it
@@ -22,6 +24,8 @@ Claude reads `CLAUDE.md` at the top of the repository, which explains how pages 
 ## 2. Edit the files yourself
 
 Any text editor works. [Obsidian](https://obsidian.md) is the nicest option: open the `content` folder as a vault and you get clickable links, backlinks, a graph view and clickable checkboxes.
+
+Every pull request is checked automatically for broken links and header mistakes. [[Open Questions]] and [[Roadmap Progress]] are generated when the website builds, so they aren't stored in the repository. If you have Python, `python3 scripts/wiki.py all` runs the same check and builds local copies of those two pages (Git ignores them).
 
 ## 3. Review a pull request
 

@@ -14,6 +14,7 @@ This wiki holds everything from the *Wayfarers Master Document V01* and the *Way
 
 ## Where to start
 
+- **Want to contribute?** Start with [[Getting Started]].
 - **New to the game?** Read the [[Mission Statement]] and [[Design Philosophy]], then [[Tiers]] and [[Scenes]].
 - **Making a character?** Follow [[Character Creation Steps]], then choose a lineage from [[Lineages]] and a class from [[Classes]].
 - **Running a game?** See [[Running the Game]] and [[Combat]].

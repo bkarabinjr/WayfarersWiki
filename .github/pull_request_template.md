@@ -8,5 +8,5 @@
 
 ## Checklist
 
-- [ ] `python3 scripts/wiki.py all` reports 0 problems
+- [ ] The automatic check on this pull request is green
 - [ ] No conflicting rule was deleted (conflicts are in `[!question]` boxes)
