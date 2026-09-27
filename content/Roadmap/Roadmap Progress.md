@@ -26,7 +26,7 @@ tags:
 
 | Status | Pages |
 |---|---|
-| stub | 28 |
-| draft | 45 |
+| stub | 27 |
+| draft | 46 |
 | needs-decision | 25 |
 | solid | 3 |

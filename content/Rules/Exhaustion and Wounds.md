@@ -1,9 +1,9 @@
 ---
 title: "Exhaustion and Wounds"
 category: Rules
-status: stub
+status: draft
 tags:
-  - status/stub
+  - status/draft
   - health
 ---
 Exhaustion and wounds are ailments and negative effects on your character.
