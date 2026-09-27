@@ -20,6 +20,16 @@ fi
 
 cp "$ROOT/site/quartz.config.ts" "$ROOT/site/quartz.layout.ts" "$ROOT/.quartz/"
 cp "$ROOT/site/custom.scss" "$ROOT/.quartz/quartz/styles/custom.scss"
+# Quartz skips anything listed in .gitignore. The generated pages (Open Questions,
+# Roadmap Progress) are gitignored on purpose: they're built here and never committed.
+# So turn off Quartz's .gitignore filtering. Quartz is pinned above, so this edit is stable.
+GLOB_TS="$ROOT/.quartz/quartz/util/glob.ts"
+perl -pi -e 's/gitignore: true/gitignore: false/' "$GLOB_TS"
+if ! grep -q "gitignore: false" "$GLOB_TS"; then
+  echo "build-site.sh: couldn't turn off .gitignore filtering in $GLOB_TS (did the Quartz version change?)" >&2
+  exit 1
+fi
+
 if [ -n "${SITE_BASE_URL:-}" ]; then
   perl -pi -e "s|baseUrl: \".*\"|baseUrl: \"$SITE_BASE_URL\"|" "$ROOT/.quartz/quartz.config.ts"
 fi
