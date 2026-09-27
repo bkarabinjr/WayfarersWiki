@@ -7,10 +7,10 @@ tags:
   - meta
   - start-here
 ---
-A step-by-step guide for new contributors. You don't need to know how to code. You'll install three free programs once, then follow the same short routine every time you make a change.
+A step-by-step guide for new contributors. You don't need to know how to code. You'll install a few free programs once, then follow the same short routine every time you make a change.
 
 > [!note] Short version
-> **Get the latest → make a branch → edit (in Obsidian or with Claude) → commit → push → open a pull request.** Someone reviews it, merges it, and the website updates by itself.
+> **Get the latest → make a branch → edit (in Obsidian or with Claude) → run the wiki check → commit → push → open a pull request.** Someone reviews it, merges it, and the website updates by itself.
 
 ## Words you'll see
 
@@ -70,7 +70,20 @@ Obsidian is a free note-taking app that understands the wiki's links.
 
 You can now browse the whole wiki, click links, and see backlinks and the graph view.
 
-### Step 5: Set up Claude (optional, for asking Claude to make changes)
+### Step 5: Install Python (for the wiki check)
+
+The wiki has a small checker script that finds broken links and rebuilds two automatic pages. It needs Python.
+
+1. Download Python from [python.org/downloads](https://www.python.org/downloads/) and run the installer.
+   - **Windows:** on the first installer screen, tick **Add python.exe to PATH** before clicking **Install Now**.
+   - **Mac:** open the downloaded `.pkg` file and click through the installer.
+2. To test it, open GitHub Desktop and choose **Repository → Open in Command Prompt** (Windows) or **Repository → Open in Terminal** (Mac). Type the command below and press Enter:
+   - Windows: `py scripts/wiki.py check`
+   - Mac: `python3 scripts/wiki.py check`
+
+   It should end with `0 problem(s)`.
+
+### Step 6: Set up Claude (optional, for asking Claude to make changes)
 
 1. Install the **Claude desktop app** from [claude.com/download](https://claude.com/download) and sign in. Working on folders on your computer needs a paid Claude plan.
 2. Use **Cowork** (in the desktop app) and add your `WayfarersWiki` folder when you start a task. Claude can then read and edit the wiki files.
@@ -135,7 +148,7 @@ Open Obsidian and edit pages like normal notes. Obsidian saves as you type.
    `category` must match the folder name. `status` is one of `stub`, `draft`, `needs-decision` or `solid`, and the `status/...` tag must match it.
 4. Link to your new page from at least one other page (for example, from [[Lineages]]), so people can find it.
 
-**Don't edit** anything in the `sources` folder, or the pages [[Open Questions]] and [[Roadmap Progress]] (they're rebuilt automatically).
+**Don't edit** anything in the `sources` folder, or the pages [[Open Questions]] and [[Roadmap Progress]] by hand. They're rebuilt when you run the wiki check in Step D.
 
 More formatting details: [[How to Contribute]].
 
@@ -156,7 +169,21 @@ Claude edits the files in your folder. It doesn't need to know anything about Gi
 > [!note] Branch first
 > Make your branch (Step B) **before** asking Claude for changes. If you forget, GitHub Desktop will offer to bring your changes onto a new branch when you create one.
 
-### Step D: Review and commit your changes
+### Step D: Run the wiki check
+
+Some pages ([[Open Questions]] and [[Roadmap Progress]]) are built automatically from the other pages. After you edit anything, rebuild them and check your work:
+
+1. In GitHub Desktop, choose **Repository → Open in Command Prompt** (Windows) or **Repository → Open in Terminal** (Mac).
+2. Run:
+   - Windows: `py scripts/wiki.py all`
+   - Mac: `python3 scripts/wiki.py all`
+3. It should end with `0 problem(s)`. If it lists problems (usually a link to a page that doesn't exist, or a status tag that doesn't match the status line), fix them and run it again.
+
+If Claude made your changes, it runs this for you. You can say "run the wiki check" to be sure.
+
+The command may change Open Questions or Roadmap Progress. That's expected: commit those changes along with yours in the next step.
+
+### Step E: Review and commit your changes
 
 Go back to GitHub Desktop. The **Changes** tab on the left lists every file you or Claude changed.
 
@@ -166,24 +193,24 @@ Go back to GitHub Desktop. The **Changes** tab on the left lists every file you 
 
 You can commit several times on the same branch. Each commit is a save point.
 
-### Step E: Push your branch
+### Step F: Push your branch
 
 Click **Publish branch** at the top right. (After the first time, the button says **Push origin**.) Your branch is now on GitHub, but not on the website yet.
 
-### Step F: Open a pull request
+### Step G: Open a pull request
 
 1. In GitHub Desktop, click **Create Pull Request** (or **Preview Pull Request → Create pull request**). Your web browser opens GitHub.
 2. Check that it says **base: main ← compare: yourname/your-branch**.
 3. Give it a clear title. Fill in the description form: what changed, and any **new design questions** the designer needs to look at.
 4. Click **Create pull request**.
 
-### Step G: Checks and review
+### Step H: Checks and review
 
 - After a minute, GitHub runs an automatic check for broken links and page-header mistakes. A **green check** means it passed.
-- A **red X** means something needs fixing. Click **Details** to see the problem (usually a link to a page that doesn't exist, or a status tag that doesn't match). Fix it in Obsidian or ask Claude ("the check says: …, please fix it"), then commit and push again. The pull request updates by itself.
-- Reviewers may leave comments. To respond with changes, stay on the same branch, edit, commit and push. There's no need to open a new pull request.
+- A **red X** means something needs fixing. Click **Details** to see the problem (usually a link to a page that doesn't exist, or a status tag that doesn't match). Fix it in Obsidian or ask Claude ("the check says: …, please fix it"), run the wiki check (Step D), then commit and push again. The pull request updates by itself.
+- Reviewers may leave comments. To respond with changes, stay on the same branch, edit, run the wiki check, commit and push. There's no need to open a new pull request.
 
-### Step H: After it's merged
+### Step I: After it's merged
 
 Once a reviewer merges your pull request, the website updates within a couple of minutes. Then, in GitHub Desktop:
 

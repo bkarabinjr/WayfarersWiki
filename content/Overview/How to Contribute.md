@@ -25,6 +25,8 @@ Claude reads `CLAUDE.md` at the top of the repository, which explains how pages 
 
 Any text editor works. [Obsidian](https://obsidian.md) is the nicest option: open the `content` folder as a vault and you get clickable links, backlinks, a graph view and clickable checkboxes.
 
+Before you commit, run `python3 scripts/wiki.py all` (Windows: `py scripts/wiki.py all`). It rebuilds [[Open Questions]] and [[Roadmap Progress]] and checks for broken links. See [[Getting Started]], Step D.
+
 ## 3. Review a pull request
 
 Changes go through pull requests on GitHub so the designer can review them before they land. Comment on the changes you disagree with, like any code review.
