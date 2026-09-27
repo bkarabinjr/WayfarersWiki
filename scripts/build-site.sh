@@ -11,7 +11,9 @@ if [ ! -d "$ROOT/.quartz/.git" ]; then
   git init -q "$ROOT/.quartz"
   git -C "$ROOT/.quartz" remote add origin https://github.com/jackyzha0/quartz.git
 fi
-if [ "$(git -C "$ROOT/.quartz" rev-parse HEAD 2>/dev/null || true)" != "$QUARTZ_REF" ]; then
+CURRENT_QUARTZ_REF="$(git -C "$ROOT/.quartz" rev-parse HEAD 2>/dev/null || true)"
+if [ "$CURRENT_QUARTZ_REF" != "$QUARTZ_REF" ]; then
+  [ -z "$CURRENT_QUARTZ_REF" ] || git -C "$ROOT/.quartz" reset -q --hard
   git -C "$ROOT/.quartz" fetch -q --depth 1 origin "$QUARTZ_REF"
   git -C "$ROOT/.quartz" checkout -q FETCH_HEAD
   rm -rf "$ROOT/.quartz/node_modules"
@@ -20,6 +22,16 @@ fi
 
 cp "$ROOT/site/quartz.config.ts" "$ROOT/site/quartz.layout.ts" "$ROOT/.quartz/"
 cp "$ROOT/site/custom.scss" "$ROOT/.quartz/quartz/styles/custom.scss"
+# Quartz skips anything listed in .gitignore. The generated pages (Open Questions,
+# Roadmap Progress) are gitignored on purpose: they're built here and never committed.
+# So turn off Quartz's .gitignore filtering. Quartz is pinned above, so this edit is stable.
+GLOB_TS="$ROOT/.quartz/quartz/util/glob.ts"
+perl -pi -e 's/gitignore: true/gitignore: false/' "$GLOB_TS"
+if ! grep -q "gitignore: false" "$GLOB_TS"; then
+  echo "build-site.sh: couldn't turn off .gitignore filtering in $GLOB_TS (did the Quartz version change?)" >&2
+  exit 1
+fi
+
 if [ -n "${SITE_BASE_URL:-}" ]; then
   perl -pi -e "s|baseUrl: \".*\"|baseUrl: \"$SITE_BASE_URL\"|" "$ROOT/.quartz/quartz.config.ts"
 fi
