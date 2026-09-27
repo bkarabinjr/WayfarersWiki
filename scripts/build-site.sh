@@ -11,7 +11,9 @@ if [ ! -d "$ROOT/.quartz/.git" ]; then
   git init -q "$ROOT/.quartz"
   git -C "$ROOT/.quartz" remote add origin https://github.com/jackyzha0/quartz.git
 fi
-if [ "$(git -C "$ROOT/.quartz" rev-parse HEAD 2>/dev/null || true)" != "$QUARTZ_REF" ]; then
+CURRENT_QUARTZ_REF="$(git -C "$ROOT/.quartz" rev-parse HEAD 2>/dev/null || true)"
+if [ "$CURRENT_QUARTZ_REF" != "$QUARTZ_REF" ]; then
+  [ -z "$CURRENT_QUARTZ_REF" ] || git -C "$ROOT/.quartz" reset -q --hard
   git -C "$ROOT/.quartz" fetch -q --depth 1 origin "$QUARTZ_REF"
   git -C "$ROOT/.quartz" checkout -q FETCH_HEAD
   rm -rf "$ROOT/.quartz/node_modules"
