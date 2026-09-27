@@ -8,6 +8,19 @@ tags:
 ---
 The master feat list, merged from Chapter 16 and the later "Feats" list. Feats with no text yet are listed by name at the bottom.
 
+## Feat trees
+
+The Additional Info notes arrange some feats as trees (each feat requires the one above it):
+
+- **Cleave** → Great Cleave
+- **Close Quarters Combatant** → Close Quarters Expert
+- **Combat Casting** → *Words* (new, not written) → War Caster / Battlecaster
+- **Improved Critical** → Staggering Critical, Hemorrhaging Critical; Overwhelming Critical sits in the same group
+- **Marksman's Dedication** → Concentrated Assault
+- **Mounted Combatant** → Mounted Specialization → **Mounted Mastery** (the new name for Squire of Solamnia)
+
+Feat trees should be at most 4 feats long (see [[Feats]]).
+
 ## Written feats
 
 **Alert.** Always on the lookout for danger:
@@ -80,12 +93,13 @@ The master feat list, merged from Chapter 16 and the later "Feats" list. Feats w
 > - **Rapid Reload:** The Chapter 16 version lacks "(minimum 1)"; the later version adds a first bullet that's the same as Point Blank Shot's ("within 5 feet doesn't impose disadvantage"). The merged version above leaves that bullet out.
 > - **Sharpshooter:** Chapter 16 has only the first two bullets; the later list adds the −5/+10 trade (which overlaps with Ferocity).
 > - **War Caster:** Chapter 16's fourth bullet is "When you succeed on a spell you cast defensively, you ignore the penalty to cast a spell defensively the next round." The later list replaces it with Steady Casting (used above).
+> - The Additional Info notes use the Chapter 16 versions of Rapid Reload, Sharpshooter and War Caster.
 > - **Alert** appears twice (Tier 1 general and skill feats), identical.
 > - **Power Attack** (later list) vs **Ferocity** (Chapter 16) are probably the same feat.
 
 ## Feats with names only
 
-Actor (see [[General Feats]]) · Charger · Chef · Close Quarters Combatant · Close Quarters Expert · Combat Casting · Combat Expertise · Crossbow Expert · Crusher · Divine Adept · Dual Wielder · Dungeon Delver · Durable · Elemental Adept · Fade Away · Far Shot · Fighting Initiate · Great Weapon Master · Gunner · Healer · Improved Disarm · Improved Initiative · Improved Sunder · Improved Trip · Inspiring Leader · Keen Mind · Knight of the Crown · Magic Initiate · Magical Aptitude · Martial Arts Adept · Master Thrower · Master Trapsetter · Metamagic Adept · Mounted Specialization · Nimble Fingers · Observant · Overrun · Overwhelming Critical (choose one type of weapon) · Piercer · Polearm Mastery · Power Attack · Precise Shot · Projectile Expert · Rapid Shot · Resilient · Ritual Caster · Rune Shaper · Savage Attacker · Sentinel · Shield Master · Shot on the Run · Skulker · Slasher · Spell Penetration · Spell Sniper · Spring Attack · Squire of Solamnia *(rename)* · Stoutfolk Fortitude · Sunder · Titan Grip · Tough · Weapon Specialization · Whirlwind Attack
+Actor (see [[General Feats]]) · Charger · Chef · Close Quarters Combatant · Close Quarters Expert · Combat Casting · Combat Expertise · Crossbow Expert · Crusher · Divine Adept · Dual Wielder · Dungeon Delver · Durable · Elemental Adept · Fade Away · Far Shot · Fighting Initiate · Great Weapon Master · Gunner · Healer · Improved Disarm · Improved Initiative · Improved Sunder · Improved Trip · Inspiring Leader · Keen Mind · Knight of the Crown · Magic Initiate · Magical Aptitude · Martial Arts Adept · Master Thrower · Master Trapsetter · Metamagic Adept · Mounted Specialization · Nimble Fingers · Observant · Overrun · Overwhelming Critical (choose one type of weapon) · Piercer · Polearm Mastery · Power Attack · Precise Shot · Projectile Expert · Rapid Shot · Resilient · Ritual Caster · Rune Shaper · Savage Attacker · Sentinel · Shield Master · Shot on the Run · Skulker · Slasher · Spell Penetration · Spell Sniper · Spring Attack · Squire of Solamnia *(renamed Mounted Mastery in the Additional Info notes)* · Stoutfolk Fortitude · Sunder · Titan Grip · Tough · Weapon Specialization · Whirlwind Attack
 
 > [!note] Names to change
 > Knight of the Crown and Squire of Solamnia are Dragonlance names. The source already flags Squire of Solamnia for renaming.

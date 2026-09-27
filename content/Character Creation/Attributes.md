@@ -24,10 +24,20 @@ Wayfarers uses six attributes. Attributes represent not only how strong you are 
 > - **Design notes:** Might, Dexterity, Intelligence, **Wisdom**, **Presence**, Resolve
 > - **Classes and feats** use Wisdom and Charisma, and the feat list says "Intellect".
 >
+> - **Additional Info notes:** Might, **Agility**, **Intellect**, **Perspective** (experience and good judgement), Charisma, Resolve.
+>
 > Pick one set and update everywhere. The table above uses the design-notes names.
 
 > [!question] Is Survival an Intelligence or a Wisdom skill?
 > Chapter 5 puts Survival under Intelligence, but the Ranger rules call it "Wisdom Survival".
+
+> [!question] What does each attribute control?
+> The Additional Info notes start a list of what each attribute governs:
+> - **Intelligence:** how many spells you can know.
+> - **Perspective:** experience; adds skill points.
+> - Might, Dexterity, Charisma, Resolve: not decided.
+>
+> But the [[General Feats|Skill Increase]] feat gives skill points equal to your **Intelligence**, not Perspective.
 
 ## Attribute numbers
 

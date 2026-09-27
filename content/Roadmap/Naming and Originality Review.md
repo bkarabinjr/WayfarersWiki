@@ -39,7 +39,7 @@ Before Wayfarers is shared publicly or sold, some names and text borrowed from o
 **Feats** ([[Skill Feats]])
 
 - [ ] Knight of the Crown
-- [ ] Squire of Solamnia (already flagged for renaming)
+- [ ] Squire of Solamnia (the Additional Info notes rename it **Mounted Mastery**; update the feat list once confirmed)
 
 **Templates** ([[Creature Templates]])
 

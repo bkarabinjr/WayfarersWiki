@@ -1,9 +1,9 @@
 ---
 title: "Sylvar"
 category: Lineages
-status: draft
+status: needs-decision
 tags:
-  - status/draft
+  - status/needs-decision
   - lineage
   - fey
 ---
@@ -28,6 +28,10 @@ Graceful, imbued with elements of magic and nature that show in their appearance
 - **Forest: Mask of the Wild.** You can attempt to hide even when you are only lightly obscured by low light, foliage, mist, heavy rain, and other natural phenomena.
 - **High.** *Not written yet.*
 - **Eladrin.** *Not written yet.*
+
+> [!question] Which Sylvar options?
+> - **Master Document V01:** Sun, Moon, Forest, High, Eladrin.
+> - **Additional Info notes:** Forest, Sun, Moon, **Air**, **Mountain**, **Frost**, **Water**. High and Eladrin aren't listed.
 
 > [!note] Leftover names
 > The source's Trance text says "Elves" (changed to Sylvar here).

@@ -17,6 +17,16 @@ An innate caster who must control their power. Sorcerers use their body and will
 - Ability names in the notes: *Soul Spark, Soul Well, Soulstorm*
 - Uses metamagic
 
+## Soul Well and Soul Mote
+
+From the Additional Info notes:
+
+- **Soul Well:** healing, increased damage, decreased incoming damage.
+- **Soul Mote:** continuous damage, heals, and a "sticky grenade".
+
+> [!question] Strain, Soul Motes or focus points?
+> The Additional Info notes say "Psions, monks, and sorcerers all use focus points." The Master Document V01 gives the Sorcerer **Strain** and **Soul Motes**, and gives Focus only to the [[Martial Artist]]. Decide whether these three classes share one resource.
+
 Tier abilities are still the blank [[Class Template]].
 
 ## Subclasses

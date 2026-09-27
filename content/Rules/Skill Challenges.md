@@ -26,3 +26,6 @@ Skill challenges are also central to making exploration fun (see [[Design Pillar
 
 > [!idea] Stunts
 > "Stunts: rolling the same dice number on a skill check." Matching dice on a skill check could trigger a bonus effect. Needs the core die decided (see [[Core Mechanics]]).
+
+> [!idea] Clocks
+> The Additional Info notes list **Clocks** under challenges: progress clocks that fill as the party succeeds or fails. Not written yet.

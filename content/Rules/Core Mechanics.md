@@ -22,5 +22,18 @@ An overview of how Wayfarers plays, with links to the detailed rules.
 > [!question] What die do skill checks use?
 > The design notes list "Rolling d6 for skill checks" and "Stunts: rolling the same dice number on a skill check", which suggests multiple d6s. But the difficulty ranks run from 5 to 50, and many rules mention d20-style advantage, crit ranges of 19–20, and saving throws. The core resolution roll needs to be written down.
 
+> [!question] What does beating the target number by 5 or 10 do?
+> The Additional Info notes say: "+5 … +10 = Critical Hit. Bypasses some damage reductions." So beating the target by 10 might be a critical hit, and +5 might be a smaller bonus. This interacts with the crit-range abilities (Improved Critical, rolls of 19–20).
+
+## Building blocks
+
+The Additional Info notes name the pieces a character is built from: **Skill, Trait, Subtrait, Feat, Attribute**. Rules text is described with these descriptors: **Race (lineage), Class, Ability, Status, Damage**.
+
+**Race and class abilities use different resources.**
+
+## Types of play
+
+The system should support three styles: **rules light**, **tactical** and **narrative**. See also [[Tiers]] for campaign types.
+
 > [!question] Defense Value, AC, or saves?
 > Most rules use **DV** (Defense Value) and "tests" with a TV (target value), but [[Cover and Obscurement]] still uses AC and Dexterity saving throws, and some abilities say "saving throw", "save" or "DC". The notes also ask for **two defense systems**: one against damage and one against status effects (see [[Defense]]).

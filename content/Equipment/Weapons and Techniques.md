@@ -39,5 +39,12 @@ The [[Berserker]] and [[Guardian]]'s Weapon Expertise lets them use the techniqu
 
 Other properties used in class and feat text: **Loading**, **backswing**, **forceful**.
 
+> [!idea] Weapon ideas from the Additional Info notes
+> - **Hefty:** a property that might be the opposite of Light.
+> - **Arm crossbow:** a weapon to add.
+> - **Weapon and armor traits by power source:** Martial, Divine, Primal, Arcane, Psionic, Specialist.
+
+See [[Armor]] for the shield rules question.
+
 > [!question] What is [ART]?
 > The Shield and Thrown entries use an **[ART]** tag. It probably marks the Expertise technique, but it isn't defined.

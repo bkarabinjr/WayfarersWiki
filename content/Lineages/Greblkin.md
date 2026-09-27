@@ -24,5 +24,8 @@ tags:
 - **Boggin:** bugbear-like. *Not written yet.*
 - *A fourth option is still to be decided.*
 
+> [!note] Boggin
+> The Additional Info notes list only Goblinoid and Trollkin plus two open slots. Boggin may have been dropped.
+
 > [!note] Skill names
 > Sleight of Hand and Stealth aren't on the [[Skills and Learnings|core skill list]] (the closest is Subterfuge). Acid isn't a listed [[Damage Types|damage type]] either (the closest is Toxic).

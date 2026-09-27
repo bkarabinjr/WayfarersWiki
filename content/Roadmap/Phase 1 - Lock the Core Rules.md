@@ -18,7 +18,7 @@ tags:
 - [ ] Define how advantage and disadvantage work with that die
 - [ ] Define **stunts** (matching dice on a check) or drop them → [[Skill Challenges]]
 - [ ] Confirm the difficulty ranks (5–50) fit the chosen die → [[Skill Challenges]]
-- [ ] Decide how critical hits work (threat range, crit effects) since many abilities change the crit range
+- [ ] Decide how critical hits work (threat range, crit effects, beating the target by 10) since many abilities change the crit range
 - [ ] Define "test", "check", "save" and "TV" and use one set of words everywhere
 
 ## Turn structure
@@ -37,7 +37,8 @@ tags:
 - [ ] Decide whether an attribute can be 0 → [[Starting Attribute Arrays]]
 - [ ] Decide whether the Heroic array stays → [[Starting Attribute Arrays]]
 - [ ] Decide whether characters have levels as well as tiers, and map levels to tiers → [[Tiers]]
-- [ ] Write boosting and pushing: cost, effect, recovery → [[Boosting and Pushing]]
+- [ ] Write boosting and pushing: cost, effect, recovery, Surge and class points → [[Boosting and Pushing]]
+- [ ] Decide what each attribute controls (spells known, skill points…) → [[Attributes]]
 
 ## Defense, health and conditions
 
@@ -47,7 +48,8 @@ tags:
 - [ ] Write exhaustion and wounds → [[Exhaustion and Wounds]]
 - [ ] Merge the two conditions lists into one and define every condition → [[Conditions and Statuses]]
 - [ ] Define the elemental blights and link each to its damage type → [[Elemental Blights]]
-- [ ] Finalize damage types and the status each applies → [[Damage Types]]
+- [ ] Finalize damage types, damage values [A]–[E], and the status each applies → [[Damage Types]]
+- [ ] Write death saves, the Wounded rule and Death's Door → [[Exhaustion and Wounds]]
 - [ ] Rewrite cover and obscurement in Wayfarers terms (DV, Awareness) → [[Cover and Obscurement]]
 
 ## Time and recovery

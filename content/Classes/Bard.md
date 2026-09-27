@@ -31,6 +31,9 @@ Performers who invoke magic through song, dance and verse. A versatile Charisma 
 
 Tier abilities are still the blank [[Class Template]].
 
+> [!idea] Bard ideas from the Additional Info notes
+> **Staccato** and **Pentameter** (ability or subclass names, not written yet).
+
 ## Subclasses (Concert of ___)
 
 | Chapter 4 | Class roles |

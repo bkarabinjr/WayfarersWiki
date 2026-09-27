@@ -28,6 +28,9 @@ Proficiencies, class features and tier abilities are still the blank [[Class Tem
 
 All are "Discipline of the ___".
 
+> [!note] Focus points
+> The Additional Info notes say Psions, monks (Martial Artists) and Sorcerers all use focus points. See [[Sorcerer]].
+
 > [!question] Which subclass list?
 > The three lists overlap only on Drunken Master (maybe renamed Swaying Jubilant) and Grappler.
 

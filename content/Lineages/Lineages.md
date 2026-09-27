@@ -1,9 +1,9 @@
 ---
 title: "Lineages"
 category: Lineages
-status: draft
+status: needs-decision
 tags:
-  - status/draft
+  - status/needs-decision
   - chapter-3
   - index
 ---
@@ -31,6 +31,12 @@ Each lineage should eventually cover:
 | [[Khitin]] | Medium | — | Intelligence, Dexterity or Might |
 | [[Human]] | Medium | 20 ft | Any |
 | [[Taruk]] | Medium | 20 ft | Might, Wisdom or Resolve |
+
+> [!question] What do the stars mean?
+> The Additional Info notes mark **Sylvar, Stoutfolk, Scion, Drakan and Human** with a ☆. It might mean the launch set, the first to finish, or something else.
+
+> [!note] Resources
+> From the Additional Info notes: "Race and class abilities use different resources." The notes also say *race* where this wiki says *lineage*.
 
 ## Outlined lineages
 

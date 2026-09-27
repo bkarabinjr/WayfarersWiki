@@ -12,6 +12,14 @@ tags:
 
 A gift and a curse. Charms and hexes. An occult caster with **pact magic** who chooses their spellcasting branch: they take the spell list of their patron and curse enemies with **hexes**. Spells are limited, but **invocations** make them formidable. Rechargeable resources.
 
+## Hexes and the familiar
+
+From the Additional Info notes:
+
+- **Hexes** are spell-like abilities you can use **once per round**.
+- A warlock's **familiar** is their conduit to their spells. Killing the familiar weakens the warlock. A warlock can gain a new familiar after a rest.
+- Feat idea: a feat that turns your familiar into a focus.
+
 ## Tier 2
 
 - **Contagion.** Can spread a status to another enemy.
