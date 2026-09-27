@@ -5,6 +5,9 @@
   python3 scripts/wiki.py generate   # rebuild Open Questions.md and Roadmap Progress.md
   python3 scripts/wiki.py all        # generate, then check
 
+The generated pages are not committed (they're in .gitignore); the website build
+(scripts/build-site.sh) creates them. Links to them always count as valid.
+
 Standard library only; works with Python 3.9+.
 """
 import os
@@ -15,6 +18,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 CONTENT = ROOT / "content"
 GENERATED = {"Open Questions.md", "Roadmap Progress.md"}
+GENERATED_TITLES = {name[:-3].lower() for name in GENERATED}
 STATUSES = ["stub", "draft", "needs-decision", "solid"]
 CATEGORY_ORDER = ["Overview", "Roadmap", "Character Creation", "Lineages", "Classes", "Subclasses",
                   "Rules", "Magic", "Equipment", "Feats", "Running the Game", "Bestiary"]
@@ -207,6 +211,8 @@ def check(pages):
             print(f"{rel}: more than one status/ tag"); problems += 1
         for mm in WIKILINK.finditer(strip_code(p["body"])):
             target = mm.group(2).strip()
+            if target.lower() in GENERATED_TITLES:
+                continue
             if target.lower() not in idx and not (ROOT / "content" / target).exists():
                 print(f"{rel}: link to missing page [[{target}]]"); problems += 1
     for n, paths in names.items():

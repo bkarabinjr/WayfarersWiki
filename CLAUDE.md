@@ -9,8 +9,8 @@ The people asking you for help are game designers, not programmers. Explain what
 ```
 content/            the wiki (one .md file per page, folders = sections)
   index.md          home page
-  Open Questions.md generated: every design question box      (don't edit)
-  Roadmap/Roadmap Progress.md   generated: checklist progress (don't edit)
+  Open Questions.md            generated at build time, ignored by Git (don't create or edit)
+  Roadmap/Roadmap Progress.md  generated at build time, ignored by Git (don't create or edit)
 sources/            original source documents (PDFs, notes); never edit these
 scripts/wiki.py     `check` finds broken links and bad headers; `generate` rebuilds generated pages
 scripts/build-site.sh  builds the website locally (`--serve` to preview)
@@ -61,7 +61,7 @@ aliases:                    # optional: other names people link with
 2. **Never delete content** unless asked. Superseded material moves into a question box or a note.
 3. **Don't edit `sources/` or the generated pages.**
 4. When the designer makes a decision: replace the question box with the final rule, update every page that used the old rule (search for it), and add a row to `content/Roadmap/Decision Log.md`.
-5. After any edit, run `python3 scripts/wiki.py all` and fix every problem it reports before you finish.
+5. After any edit, run `python3 scripts/wiki.py all` and fix every problem it reports before you finish. It also writes local copies of the two generated pages; Git ignores them, so never commit them.
 6. Work on a branch and open a pull request (or, for someone who doesn't use Git, leave the changes uncommitted and summarize them). Don't push to `main` directly unless asked.
 
 ## Common requests

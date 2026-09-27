@@ -4,3 +4,7 @@ public/
 .DS_Store
 content/.obsidian/
 .obsidian/
+
+# Generated at build time by scripts/wiki.py (see scripts/build-site.sh)
+content/Open Questions.md
+content/Roadmap/Roadmap Progress.md

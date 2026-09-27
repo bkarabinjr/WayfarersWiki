@@ -25,7 +25,7 @@ Claude reads `CLAUDE.md` at the top of the repository, which explains how pages 
 
 Any text editor works. [Obsidian](https://obsidian.md) is the nicest option: open the `content` folder as a vault and you get clickable links, backlinks, a graph view and clickable checkboxes.
 
-Before you commit, run `python3 scripts/wiki.py all` (Windows: `py scripts/wiki.py all`). It rebuilds [[Open Questions]] and [[Roadmap Progress]] and checks for broken links. See [[Getting Started]], Step D.
+Every pull request is checked automatically for broken links and header mistakes. [[Open Questions]] and [[Roadmap Progress]] are generated when the website builds, so they aren't stored in the repository. If you have Python, `python3 scripts/wiki.py all` runs the same check and builds local copies of those two pages (Git ignores them).
 
 ## 3. Review a pull request
 
