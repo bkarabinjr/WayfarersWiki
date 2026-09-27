@@ -29,4 +29,4 @@ tags:
 | stub | 27 |
 | draft | 46 |
 | needs-decision | 25 |
-| solid | 3 |
+| solid | 4 |

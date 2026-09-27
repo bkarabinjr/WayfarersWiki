@@ -6,6 +6,10 @@ The design wiki for **Wayfarers**, a setting-agnostic tabletop RPG. Every rule, 
 - **Start here:** `content/index.md`, then `content/Roadmap/Roadmap.md` for the plan to finish the game.
 - **Open design questions:** `content/Open Questions.md`
 
+## New contributors
+
+Not a programmer? Start with the step-by-step guide: [`content/Overview/Getting Started.md`](content/Overview/Getting%20Started.md) (also on the website under Overview → Getting Started). It covers GitHub Desktop, Obsidian, Claude, branches and pull requests.
+
 ## Contributing with Claude
 
 The easiest way to contribute is to let Claude do the editing. It reads `CLAUDE.md`, which explains how the wiki is organized.

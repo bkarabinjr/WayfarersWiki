@@ -6,6 +6,8 @@ tags:
   - status/solid
   - meta
 ---
+**New here?** Follow [[Getting Started]] first: it walks through installing everything and making your first change, step by step.
+
 The wiki is a folder of Markdown files in a Git repository. The website is built from those files automatically every time a change lands on `main`. There are three ways to contribute, from easiest to most hands-on.
 
 ## 1. Ask Claude to do it
