@@ -1,0 +1,9 @@
+# GitHub requests these reviewers automatically on every pull request.
+# The last matching line wins. GitHub skips the pull request's own author.
+
+# Wiki and site structure: scripts, site config, workflows, Claude tooling, etc.
+*           @bkarabinjr
+
+# Wiki content and source documents
+/content/   @ccoreystafford
+/sources/   @ccoreystafford

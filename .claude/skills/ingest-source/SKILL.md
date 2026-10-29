@@ -50,4 +50,4 @@ Finish with a short summary for the designer:
 - **New design questions**, listed one per line, since these need the designer's attention.
 - Anything in the source you couldn't place or didn't understand.
 
-If you're using Git: commit on a new branch named `ingest/<short-source-name>`, with this summary as the commit message body, then open a pull request (or tell the person how to).
+If you're using Git: commit on a new branch named `ingest/<short-source-name>`, with this summary as the commit message body, then open a pull request with `.claude/skills/open-pr/SKILL.md` (or tell the person how to).

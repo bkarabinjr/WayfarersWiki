@@ -67,6 +67,7 @@ aliases:                    # optional: other names people link with
 ## Common requests
 
 - **"Ingest this document"**: follow `.claude/skills/ingest-source/SKILL.md`.
+- **"Open a pull request"**: follow `.claude/skills/open-pr/SKILL.md`.
 - **"What does the wiki say about X?"**: search `content/` (`grep -ri`) and answer with links to the pages.
 - **"We decided X"**: rule 4 above.
 - **"Mark this done"** on the roadmap: change `- [ ]` to `- [x]` on the phase page, then run `generate`.
