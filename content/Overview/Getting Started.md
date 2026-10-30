@@ -78,6 +78,22 @@ You can now browse the whole wiki, click links, and see backlinks and the graph 
 
 The repository includes instructions for Claude (`CLAUDE.md`), so it already knows how pages are laid out and that it must flag conflicts instead of deleting them.
 
+### Step 6: Let Claude open pull requests (optional)
+
+Skip this if you'll always use GitHub Desktop to commit, push and open pull requests. Do it if you want to say "open a pull request for this" and have Claude handle Steps D to F for you. This works in **Claude Code** (the Code tab in the desktop app, or `claude` in a terminal).
+
+Claude needs two command-line tools: **Git** and the **GitHub CLI** (`gh`). GitHub Desktop has its own copy of Git hidden inside it, which Claude can't use.
+
+1. Open a terminal: on Windows, **Terminal** from the Start menu; on a Mac, **Terminal** from Applications → Utilities.
+2. Install both tools:
+   - Windows: run `winget install --id Git.Git` and then `winget install --id GitHub.cli`. Close the terminal and open a new one afterwards.
+   - Mac: run `git --version`. If it offers to install the developer tools, click **Install**. Then download the GitHub CLI installer from [cli.github.com](https://cli.github.com) and run it.
+3. Run `gh auth login` and answer the questions: **GitHub.com**, **HTTPS**, **Yes** (authenticate Git with your GitHub credentials), **Login with a web browser**. Copy the code it shows, press Enter, and paste the code into the page that opens. Sign in with the account from Step 1.
+4. Run `gh auth status`. It should say you're logged in as your GitHub username.
+5. Restart the Claude desktop app so it picks up the new tools.
+
+Claude opens pull requests from your GitHub account, the same as if you'd clicked the button yourself.
+
 ---
 
 ## Part 2: Every time you make a change
@@ -149,9 +165,10 @@ More formatting details: [[How to Contribute]].
    - "Write the Tundra option for Stoutfolk based on the other Stoutfolk options, and mark it as a draft."
    - "We decided characters get 3 Action Points. Update every page and log it in the Decision Log."
    - "What does the wiki say about shields?"
+   - "Open a pull request for this." (Needs Step 6 of the setup.)
 4. Read Claude's summary of what it changed. If something's wrong, tell it.
 
-Claude edits the files in your folder. It doesn't need to know anything about Git: you'll save and share the changes in GitHub Desktop, next.
+Claude edits the files in your folder. You'll save and share the changes in GitHub Desktop, next. If Claude opened the pull request for you, skip to Step G.
 
 > [!note] Branch first
 > Make your branch (Step B) **before** asking Claude for changes. If you forget, GitHub Desktop will offer to bring your changes onto a new branch when you create one.
@@ -181,6 +198,7 @@ Click **Publish branch** at the top right. (After the first time, the button say
 
 - After a minute, GitHub automatically checks your changes for broken links and page-header mistakes. You don't need to run anything yourself. A **green check** means it passed.
 - A **red X** means something needs fixing. Click **Details** to see the problem (usually a link to a page that doesn't exist, or a status tag that doesn't match). Fix it in Obsidian or ask Claude ("the check says: …, please fix it"), then commit and push again. The pull request updates by itself.
+- GitHub asks the right reviewer automatically: Corey Stafford for wiki pages and source documents, Brian Karabin for changes to the site itself. If Claude opens the pull request for you, it also posts a comment checking your changes for contradictions and holes in the logic.
 - Reviewers may leave comments. To respond with changes, stay on the same branch, edit, commit and push. There's no need to open a new pull request.
 
 ### Step H: After it's merged
