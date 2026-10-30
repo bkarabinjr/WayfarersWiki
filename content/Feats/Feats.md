@@ -16,7 +16,7 @@ Feats are grouped into categories:
 
 - General Feats (see [[General Feats]])
 - Origin Feats
-- There will be some
+- There will be many
 - Lineage Feats
 - Base Class Feats
 - Subclass Feats
